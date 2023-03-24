@@ -36,6 +36,7 @@
   column-gap: 20px;
   list-style: none;
   padding: 0;
+  margin-bottom: 0;
 }
 
 .nav__link {
@@ -62,6 +63,7 @@
   line-height: 30px;
   max-width: 532px;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .header__image {
@@ -245,6 +247,7 @@
   padding-bottom: 140px;
   background-image: url("../images/staff_picks_background.jpg");
   background-position: center;
+  background-size: cover;
 }
 
 .staff__title {
@@ -253,7 +256,6 @@
   line-height: 52px;
   margin: 0 0 24px;
   color: white;
-  font-weight: 400;
 }
 
 .staff__subtitle {
@@ -418,6 +420,7 @@
   background-color: #1f1f1f;
   color: #fff;
   padding: 60px 102px 60px 80px;
+  min-height: 224px;
 }
 
 .footer__columns {
